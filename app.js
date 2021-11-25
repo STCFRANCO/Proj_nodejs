@@ -13,5 +13,5 @@ app.use(express.json());
 app.use("/lista", listanode.node);
 
 app.listen(port, () => {
-  console.log(`Iniciando na porta http://localhost:${port}`);
+  console.log(`Servidor pelo porta http://localhost:${port}`);
 });
